@@ -1,0 +1,189 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+font-family: 'Montserrat', sans-serif;
+/*
+font-family: 'Handlee', cursive;
+font-family: 'Roboto', sans-serif
+  */
+}
+h1,h2,h3,h4,h5,h6{
+  
+}
+.section-title h3{
+  font-weight: bolder;
+  margin-bottom: 0;
+  
+}
+.hr-style{
+  border: 5px dotted black !important;
+  border-bottom: none;
+  width: 50px;
+  
+  
+  
+}
+/*Header Starts*/
+nav{
+  background:rgba(0,0,0,0.3);
+  
+}
+.navbar-brand img{
+  width: 50px;
+  height: auto;
+}
+.nav-link{
+  margin: 5px 10px;
+  border-radius: 5px;
+  background: rgba(0,0,0,0.01);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  transition: .4s;
+  color: white;
+}
+.nav-link:hover{
+  background: black;
+  color: white;
+  transform: scale(1.02);
+
+}
+
+header{
+  background-image: url('book.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.banner-container{
+  height: 100vh;
+}
+.banner-container h1{
+  font-size: 3.5rem;
+}
+.banner-contents h1{
+  background:rgba(0,0,0,0.5);
+  font-family: 'Handlee', cursive;
+}
+/*Header Ends*/
+/*Feature Starts*/
+#feature{
+  padding: 5% 10%;
+  background: #e8ded2;
+}
+.feature-col{
+  border: 1px solid #ff02c0;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 20px 0;
+  transition: .4s;
+  
+  
+}
+.feature-col:hover{
+  transform: scale(1.1);
+  box-shadow: 2px 6px 5px black;
+}
+
+
+.icon-style{
+  background: #bb0aac;
+  color: white;
+  padding: 15px;
+  margin: 5px 0;
+}
+
+
+/*Feature Ends*/
+/*About Me Starts*/
+#about-me{
+  padding: 4% 10%;
+  background: #e8ded2;
+}
+.basic-desc p{
+  font-size: 0.9rem;
+  
+  
+}
+.basic-desc a{
+  color: black;
+}
+.edu-desc p{
+  font-size: 0.9rem;
+}
+
+/*About Me Ends*/
+/*Tutorial Starts*/
+#tutorial{
+  padding: 4% 10%;
+  background: #a3d2ca;
+}
+.card{
+  padding: 10px;
+  border: 1px solid #eff0260;
+  transition: .4s;
+  
+}
+.card:hover{
+  transform: scale(1.01);
+  box-shadow: 2px 6px 5px black;
+}
+.card-body{
+  background: rgba(0,0,0,0.5);
+  
+}
+
+
+/*Tutorial Ends*/
+/*Feedback Starts*/
+#feedback{
+  padding: 5%;
+  background: #5eaaa8;
+  
+  
+}
+.feedback-img{
+  width: 100px;
+  height: auto;
+  margin-bottom: 5px;
+  
+  
+  
+}
+.carousel-item{
+  text-align: center;
+  padding:7% 15% ;
+  font-style: italic;
+  
+  
+}
+.carousel-indicators{
+  
+}
+
+
+/*Feedback Ends*/
+/*Contact Starts*/
+#contact{
+  background: #5eaaa8;
+  padding: 2% 10%;
+}
+
+
+
+/*Contact Ends*/
+/*footer Starts*/
+footer{
+  background: #056676;
+  padding: 2% 10%;
+}
+footer a{
+  margin: 0 10px;
+  color: white;
+}
+
+
+/*footer Ends*/
